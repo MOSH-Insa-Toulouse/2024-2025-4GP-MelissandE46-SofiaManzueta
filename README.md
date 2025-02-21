@@ -4,3 +4,4 @@
 1. [x] Créer le dépot du projet
 2. [x] Validation d'un commit du fichier README.md
 3. [] Récupérer un commit depuis le compte 
+4. [] Fusion de branches
