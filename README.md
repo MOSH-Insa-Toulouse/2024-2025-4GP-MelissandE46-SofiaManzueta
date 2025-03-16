@@ -6,12 +6,15 @@
 
 <details>
 <summary>  Création d'un capteur de contrainte en graphite  </summary>
-  Something 
-
+  Something
+  wow 
+<details>
 
 <details>
 <summary>  Réalisation d'un shield PCB pour Arduino UNO </summary>
   Something
+  wow
+<details>
 
 
 <details>
@@ -31,6 +34,7 @@
 
 ## Diagramme du projet 
 <details>
+Image
 <summary>  Etapes du projet :  </summary>
   
   - [x] Attribution des inputs de l'arduino aux différents composants
