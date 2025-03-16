@@ -1,8 +1,50 @@
 # 2024-2025-4GP-Melissande46-SofiaManzueta
 
-## Liste de taches pour notre projet 
-1. [x] Créer le dépot du projet
-2. [x] Validation de commit du fichier README
-2. [x] Validation d'un commit du fichier README.md
-3. [] Récupérer un commit depuis le compte 
-4. [] Fusion de branches
+# Projet Capteur
+
+## Objectifs de ce projet
+
+<details>
+<summary>  Création d'un capteur de contrainte en graphite  </summary>
+  Something 
+
+
+<details>
+<summary>  Réalisation d'un shield PCB pour Arduino UNO </summary>
+  Something
+
+
+<details>
+<summary>  Création d'un code Arduino  </summary>
+  Something
+<details>
+
+<details>
+<summary>  Élaboration d'une app Android </summary>
+  Something
+<details>
+
+<details>
+<summary>  Datasheet   </summary>
+  Something
+<details>
+
+## Diagramme du projet 
+<details>
+<summary>  Etapes du projet :  </summary>
+  
+  - [x] Attribution des inputs de l'arduino aux différents composants
+  - [X] Electronique Analogique
+  - [x] Schématique et routage KiCad  
+  - [] Impression du circuit
+  - [] Percage
+  - [] Montage du circuit
+  - [] Code Arduino
+  - [] App Android
+  - [] Création du banc de test
+  - [] Création de la datasheet
+
+<details>
+
+
+
