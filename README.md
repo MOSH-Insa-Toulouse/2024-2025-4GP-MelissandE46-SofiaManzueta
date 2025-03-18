@@ -1,9 +1,9 @@
-# 2024-2025-4GP-Melissande46-SofiaManzueta
+# 2024-2025-4GP-MelissandE46-SofiaManzueta
 
 # Projet Capteur
 
 ## Sommaire 
-* Objectifs de ce projet
+*  Objectifs de ce projet
 *  Diagramme du projet
 *  Simulation du capteur graphite sur LTSpice
 *  Shield PCB sur Kicad
@@ -15,12 +15,19 @@
 
 <details>
 <summary>  Création d'un capteur de contrainte en graphite  </summary>
-  - hola
+   Nous allons utiliser les traces de crayon sur du papier comme une jauge de contrainte pour détecter les déformations en compression et en traction.<br/> Les mines de crayon standard sont composées de fines particules de graphite liées entre elles par des liants argileux. Lorsqu'on utilise un crayon, le frottement entre la mine et le papier entraîne le frottement de particules de graphite qui adhèrent aux fibres du papier. Ces traces de crayon peuvent être considérées comme de minces films conducteurs constitués de réseau de particules de graphite percolées sur le papier qui peuvent prendre des formes et des motifs arbitraires. L'expansion et la contraction de ce réseau de particules de graphite, induites par des contraintes mécaniques ou des interactions chimiques, devraient grandement affecter la qualité des contacts interparticulaires et donc le conductivité électrique globale. Il est important de noter que les mines de crayon plus dures contiennent une proportion plus élevée de liants argileux, alors que les mines plus molles contiennent un eproportion plus grande de particules de graphite. Ces dernières permettent d'obtenir une résistance de base plus faible qu'avec les mines plus dures. Il a été observé que les variations de résistance moyennes étaient linéairement liées aux amplitudes moyennes de déflexion, avec des écarts d'environ 1%.
 </details>
 
 <details>
 <summary>  Réalisation d'un shield PCB pour Arduino UNO  </summary>
-  - hola
+   Nous allons créer un shield PCB afin de relier à l'arduino UNO :<br/>  
+        *  Un écran OLED  <br/>
+        *  Un potentiomètre digital en SPI   <br/>
+        *  Un amplificateur transimpédance, lui-même relié au capteur graphite décrit plus haut et au potentiomètre digital  <br/>
+        *  Un module Bluetooth  <br/>
+        *  Un flex sensor  <br/>
+        *  Un encodeur rotatoir auquel on ajoute un déparasite (une capacité entre la clock et le ground)   <br/>
+  
 </details>
 
 <details>
