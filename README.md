@@ -2,39 +2,46 @@
 
 # Projet Capteur
 
+## Sommaire 
+* Objectifs de ce projet
+*  Diagramme du projet
+*  Simulation du capteur graphite sur LTSpice
+*  Shield PCB sur Kicad
+*  Code Arduino
+*  App Android
+*  La Datasheet
+
 ## Objectifs de ce projet
 
 <details>
 <summary>  Création d'un capteur de contrainte en graphite  </summary>
-  Something
-  wow 
-<details>
+  - hola
+</details>
 
 <details>
-<summary>  Réalisation d'un shield PCB pour Arduino UNO </summary>
-  Something
-  wow
-<details>
-
+<summary>  Réalisation d'un shield PCB pour Arduino UNO  </summary>
+  - hola
+</details>
 
 <details>
 <summary>  Création d'un code Arduino  </summary>
-  Something
-<details>
+  - hola
+</details>
 
 <details>
-<summary>  Élaboration d'une app Android </summary>
-  Something
-<details>
+<summary>  Élaboration d'une app Android  </summary>
+  - hola
+</details>
 
 <details>
-<summary>  Datasheet   </summary>
-  Something
-<details>
+<summary>  Rédaction datasheet  </summary>
+  - hola
+</details>
+
 
 ## Diagramme du projet 
-<details>
 Image
+<details>
 <summary>  Etapes du projet :  </summary>
   
   - [x] Attribution des inputs de l'arduino aux différents composants
@@ -47,8 +54,19 @@ Image
   - [] App Android
   - [] Création du banc de test
   - [] Création de la datasheet
+</details>
 
-<details>
+
+## Simulation du capteur graphite sur LTSpice 
+* Création d'un capteur de contrainte en graphite
+  - hola
+
+## Code Arduino
+
+## App Android
+
+## La Datasheet
+
 
 
 
