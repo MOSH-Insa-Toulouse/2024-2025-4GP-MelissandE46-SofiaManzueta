@@ -66,9 +66,9 @@ Image
   - [x] Attribution des inputs de l'arduino aux différents composants
   - [X] Electronique Analogique
   - [x] Schématique et routage KiCad  
-  - [] Impression du circuit
-  - [] Percage
-  - [] Montage du circuit
+  - [x] Impression du circuit
+  - [x] Percage
+  - [x] Montage du circuit
   - [] Code Arduino
   - [] App Android
   - [] Création du banc de test
