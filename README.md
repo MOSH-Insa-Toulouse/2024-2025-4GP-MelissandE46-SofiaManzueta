@@ -55,6 +55,11 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 <details>
 <summary>  Rédaction datasheet  </summary>
   Les données de la datasheet proviennent des mesures réalisées avec le code Arduino sur le circuit présenté précédemment. Pour les mines 6B à HB, nous avons mesurer la résistance du capteur graphite pour différentes déformations en tension et en compression. Pour ces déformations, nous avons utilisé des cylindres avec des diamètres de 2cm, 2.5cm, 3cm, 3.5cm, 4cm, 4.5cm et 5cm. Cela nous donne donc des déformations respectivement de 0.1, 0.08, 0.067, 0.057, 0.05, 0.044, 0.04 puisque nous avons mesuré l'épaisseur du capteur e = 0.2cm et que $$\epsilon = \frac{e}{D}$$. On obtient ainsi les courbes caractéristiques suivantes. 
+
+
+![Image](https://github.com/user-attachments/assets/57c43c46-7348-40bf-8f25-27c2d0164565)
+
+![Image](https://github.com/user-attachments/assets/05f703b3-2d60-4256-a29a-9962d75ff237)
 </details>
 
 
