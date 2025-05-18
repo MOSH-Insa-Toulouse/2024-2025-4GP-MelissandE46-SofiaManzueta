@@ -49,12 +49,12 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 
 <details>
 <summary>  Élaboration d'une app Android  </summary>
-  - hola
+  Une application a été créée à l'aide de MIT App Inventor (https://appinventor.mit.edu/). Celle-ci permet d'accéder aux mesures réalisées par le capteur graphite, de les afficher dans un graphe et de récupérer ses valeurs dans un fichier. Elle permet également d'obtenir de plus amples informations sur le contexte de ce projet lorsqu'on arrive sur l'écran Informations. Les photos de la partie Designers (ce qui est vu par l'utilisateur) et la partie Blocks (le code derrière l'application) sont disponibles dans le dossier Application.
 </details>
 
 <details>
 <summary>  Rédaction datasheet  </summary>
-  - hola
+  Les données de la datasheet proviennent des mesures réalisées avec le code Arduino sur le circuit présenté précédemment. Pour les mines 6B à HB, nous avons mesurer la résistance du capteur graphite pour différentes déformations en tension et en compression. Pour ces déformations, nous avons utilisé des cylindres avec des diamètres de 2cm, 2.5cm, 3cm, 3.5cm, 4cm, 4.5cm et 5cm. Cela nous donne donc des déformations respectivement de 0.1, 0.08, 0.067, 0.057, 0.05, 0.044, 0.04 puisque nous avons mesuré l'épaisseur du capteur e = 0.2cm et que $$\epsilon = \frac{e}{D}$$. On obtient ainsi les courbes caractéristiques suivantes. 
 </details>
 
 
