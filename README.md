@@ -44,7 +44,7 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 
 <details>
 <summary>  Création d'un code Arduino  </summary>
-  - hola
+  Dans l'onglet Code Arduino, on retrouve un fichier principal contenant le code qui permet de  
 </details>
 
 <details>
