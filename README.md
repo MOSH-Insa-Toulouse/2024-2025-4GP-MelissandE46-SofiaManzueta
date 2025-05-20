@@ -94,7 +94,16 @@ Image
 
 ## Simulation du capteur graphite sur LTSpice 
 * Création d'un capteur de contrainte en graphite
-  - hola
+![Image](https://github.com/user-attachments/assets/ec8b3545-076f-4be9-a1ad-92079042dbc7)<br/>
+Sur le schéma ci-dessus, la partie supérieure à gauche sert à modéliser le capteur graphite.<br/>
+C2 filtre le bruit d'alimentation.<br/>
+C3 et R5 sont un filtre de sortie.<br/>
+C4 et R4 sont un filtre actif.<br/>
+R3 correspond au potentiomètre, il permettra donc un changement de calibre.<br/>
+C1 et R2 sont un filtre pour le bruit en courant.<br/>
+R5 et C1 sont un filtre pour les bruits en tension.<br/>
+V3 et C5 simule du bruit.<br/>
+
 
 ## Code Arduino
 
