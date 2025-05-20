@@ -55,11 +55,17 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 <details>
 <summary>  Rédaction datasheet  </summary>
   Les données de la datasheet proviennent des mesures réalisées avec le code Arduino sur le circuit présenté précédemment. Pour les mines 6B à HB, nous avons mesurer la résistance du capteur graphite pour différentes déformations en tension et en compression. Pour ces déformations, nous avons utilisé des cylindres avec des diamètres de 2cm, 2.5cm, 3cm, 3.5cm, 4cm, 4.5cm et 5cm. Cela nous donne donc des déformations respectivement de 0.1, 0.08, 0.067, 0.057, 0.05, 0.044, 0.04 puisque nous avons mesuré l'épaisseur du capteur e = 0.2cm et que $$\epsilon = \frac{e}{D}$$. On obtient ainsi les courbes caractéristiques suivantes. 
-
+   
+![Image](https://github.com/user-attachments/assets/ba851fe5-0c98-4cc4-a488-a5d6c2b58134)
 
 ![Image](https://github.com/user-attachments/assets/57c43c46-7348-40bf-8f25-27c2d0164565)
+Comme on s'y attendait, en cas de compression, la résistance du capteur graphite diminue lorsque la déformation $$\epsilon$$ augmente. A l'inverse, en cas de tension, la résistance du capteur graphite augmente en fonction de la déformation $$\epsilon$$. Pour ces deux cas de figure, nous pouvons observer que la pente de la courbe est dépendante de la mine utilisée. En effet, la variation relative de résistance est plus élevée pour les mines plus dures, comme cela est décrit dans l'article Pencil Drawn Strain Gauges and Chemiresistors on Paper de Cheng-Wei Lin, Zhibo Zhao, Jaemyung Kim et Jiaxing Huang.
 
 ![Image](https://github.com/user-attachments/assets/05f703b3-2d60-4256-a29a-9962d75ff237)
+Les résultats du capteur graphite peuvent également être comparés à ceux obtenus avec un flex sensor commercial (celui-ci ne peut être utilisé qu'en tension). Tout d'abord, on peut remarquer que les mesures du flex sensor sont bien plus régulières que celles du capteur graphite. De plus, ses variations relatives de résistance sont plus élevées. Il est important de noter que les mesures du capteur graphite, que ce soit en tension ou en compression, sont peu fiables et dépendent en grande partie du reste du matériel utilisé. En effet, d'une mesure à une autre dans des conditions similaires les résultats du capteur peuvent grandement varier. De plus, pour obtenir des résultats cohérents, nous avons dû emprunter les pinces crocodiles d'un autre groupe, sinon peu importe la déormation et la mine utilisées la résistance mesurée était infinie.
+Nous pouvons donc en conclure que le capteur présenté à l'avantage d'être simple, sobre et abordable. Cependant, ses performances sont encore très éloignées de celles d'un flex sensor commercial. De plus, nous avons remarqué que nous devions régulièrement remettre du graphite sur le capteur et le remplacer par un nouveau après l'avoir utilisé en compression et en tension. Cela va donc à l'encontre du principe de la low-tech.
+
+
 </details>
 
 
@@ -77,7 +83,7 @@ Image
   - [] Code Arduino
   - [] App Android
   - [] Création du banc de test
-  - [] Création de la datasheet
+  - [x] Création de la datasheet
 </details>
 
 
