@@ -54,7 +54,7 @@ Modèle 3D<br/>
 
 <details>
 <summary>  Élaboration d'une app Android  </summary>
-  Une application a été créée à l'aide de MIT App Inventor (https://appinventor.mit.edu/). Celle-ci permet d'accéder aux mesures réalisées par le capteur graphite, de les afficher dans un graphe et de récupérer ses valeurs dans un fichier. Elle permet également d'obtenir de plus amples informations sur le contexte de ce projet lorsqu'on arrive sur l'écran Informations. Les photos de la partie Designers (ce qui est vu par l'utilisateur) et la partie Blocks (le code derrière l'application) sont disponibles dans le dossier Application.
+  Une application a été créée à l'aide de MIT App Inventor (https://appinventor.mit.edu/). Celle-ci permet d'accéder aux mesures réalisées par le capteur graphite, de les afficher dans un graphe et de récupérer ses valeurs dans un fichier. Elle permet également d'obtenir de plus amples informations sur le contexte de ce projet lorsqu'on arrive sur l'écran Informations. Les photos de la partie Designers (ce qui est vu par l'utilisateur) et la partie Blocks (le code derrière l'application) sont disponibles dans le dossier Application Android.
 </details>
 
 <details>
@@ -86,8 +86,8 @@ Image
   - [x] Percage
   - [x] Montage du circuit
   - [] Code Arduino
-  - [] App Android
-  - [] Création du banc de test
+  - [x] App Android
+  - [x] Création du banc de test
   - [x] Création de la datasheet
 </details>
 
