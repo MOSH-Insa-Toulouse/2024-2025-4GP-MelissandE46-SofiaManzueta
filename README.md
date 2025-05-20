@@ -38,8 +38,13 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
         *  Un amplificateur transimpédance, lui-même relié au capteur graphite décrit plus haut et au potentiomètre digital  <br/>
         *  Un module Bluetooth  <br/>
         *  Un flex sensor  <br/>
-        *  Un encodeur rotatoir auquel on ajoute un déparasite (une capacité entre la clock et le ground)   <br/>
-  
+        *  Un encodeur rotatoir auquel on ajoute un déparasite (une capacité entre la clock et le ground)   <br/><br/>
+<img width="581" alt="Image" src="https://github.com/user-attachments/assets/28eecbd2-f71b-4ced-967f-bbeb16ab7868" /><br/>
+   Schematic de la PCB<br/>
+<img width="247" alt="Image" src="https://github.com/user-attachments/assets/da1daee6-8b76-422a-96bd-73fcd297bd3a" /><br/>
+   Rooting de la PCB<br/>
+<img width="385" alt="Image" src="https://github.com/user-attachments/assets/123b7bb1-8d2a-4d68-acf9-2b749840cc4e" /><br/>
+Modèle 3D<br/> 
 </details>
 
 <details>
@@ -62,7 +67,7 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 Comme on s'y attendait, en cas de compression, la résistance du capteur graphite diminue lorsque la déformation $$\epsilon$$ augmente. A l'inverse, en cas de tension, la résistance du capteur graphite augmente en fonction de la déformation $$\epsilon$$. Pour ces deux cas de figure, nous pouvons observer que la pente de la courbe est dépendante de la mine utilisée. En effet, la variation relative de résistance est plus élevée pour les mines plus dures, comme cela est décrit dans l'article Pencil Drawn Strain Gauges and Chemiresistors on Paper de Cheng-Wei Lin, Zhibo Zhao, Jaemyung Kim et Jiaxing Huang.
 
 ![Image](https://github.com/user-attachments/assets/05f703b3-2d60-4256-a29a-9962d75ff237)
-Les résultats du capteur graphite peuvent également être comparés à ceux obtenus avec un flex sensor commercial (celui-ci ne peut être utilisé qu'en tension). Tout d'abord, on peut remarquer que les mesures du flex sensor sont bien plus régulières que celles du capteur graphite. De plus, ses variations relatives de résistance sont plus élevées. Il est important de noter que les mesures du capteur graphite, que ce soit en tension ou en compression, sont peu fiables et dépendent en grande partie du reste du matériel utilisé. En effet, d'une mesure à une autre dans des conditions similaires les résultats du capteur peuvent grandement varier. De plus, pour obtenir des résultats cohérents, nous avons dû emprunter les pinces crocodiles d'un autre groupe, sinon peu importe la déormation et la mine utilisées la résistance mesurée était infinie.
+Les résultats du capteur graphite peuvent également être comparés à ceux obtenus avec un flex sensor commercial (celui-ci ne peut être utilisé qu'en tension). Tout d'abord, on peut remarquer que les mesures du flex sensor sont bien plus régulières que celles du capteur graphite. De plus, ses variations relatives de résistance sont plus élevées. Il est important de noter que les mesures du capteur graphite, que ce soit en tension ou en compression, sont peu fiables et dépendent en grande partie du reste du matériel utilisé. En effet, d'une mesure à une autre dans des conditions similaires les résultats du capteur peuvent grandement varier. De plus, pour obtenir des résultats cohérents, nous avons dû emprunter les pinces crocodiles d'un autre groupe, sinon peu importe la déormation et la mine utilisées la résistance mesurée était infinie.<br/><br/>
 Nous pouvons donc en conclure que le capteur présenté à l'avantage d'être simple, sobre et abordable. Cependant, ses performances sont encore très éloignées de celles d'un flex sensor commercial. De plus, nous avons remarqué que nous devions régulièrement remettre du graphite sur le capteur et le remplacer par un nouveau après l'avoir utilisé en compression et en tension. Cela va donc à l'encontre du principe de la low-tech.
 
 
