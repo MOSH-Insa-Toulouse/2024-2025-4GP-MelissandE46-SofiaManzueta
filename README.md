@@ -111,12 +111,8 @@ R5 et C1 sont un filtre pour les bruits en tension.<br/>
 V3 et C5 simule du bruit.<br/>
 
 ## Shield PCB sur Kicad
-<img width="581" alt="Image" src="https://github.com/user-attachments/assets/28eecbd2-f71b-4ced-967f-bbeb16ab7868" /><br/>
-   Schematic de la PCB<br/>
-<img width="247" alt="Image" src="https://github.com/user-attachments/assets/da1daee6-8b76-422a-96bd-73fcd297bd3a" /><br/>
-   Rooting de la PCB<br/>
-<img width="385" alt="Image" src="https://github.com/user-attachments/assets/123b7bb1-8d2a-4d68-acf9-2b749840cc4e" /><br/>
-Modèle 3D<br/>
+
+Des images du schematic, modèle 3D et PCB finale entre autres sont disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-MelissandE46-SofiaManzueta/tree/main/Kidad%20-%20Projet%20capteur)
 
 ## Code Arduino
 
