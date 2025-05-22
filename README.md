@@ -78,7 +78,7 @@ Nous pouvons donc en conclure que le capteur présenté à l'avantage d'être si
 </details>
 
 
-## Diagramme du projet 
+## Déroulé du projet 
 
 <details>
 <summary>  Etapes du projet :  </summary>
