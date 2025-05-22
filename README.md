@@ -4,7 +4,7 @@
 
 ## Sommaire 
 *  [Objectifs de ce projet](#objectifs-de-ce-projet)
-*  [Diagramme du projet](#diagramme-du-projet)
+*  [Déroulé du projet](#diagramme-du-projet)
 *  [Simulation du capteur graphite sur LTSpice](#simulation-du-capteur-graphite-sur-ltspice)
 *  [Shield PCB sur Kicad](#shield-pcb-sur-kicad)
 *  [Code Arduino](#code-arduino)
