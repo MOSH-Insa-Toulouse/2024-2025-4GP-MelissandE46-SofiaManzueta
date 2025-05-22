@@ -126,15 +126,10 @@ Modèle 3D<br/>
 
 [Images faces avants et faces arrières de l'application Android](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-MelissandE46-SofiaManzueta/tree/main/Application%20Android)
 
-## La datasheet
-
-
-
-
-
-
 
 ## La Datasheet
+
+[La Datasheet](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-MelissandE46-SofiaManzueta/tree/main/Datasheet)
 
 
 
