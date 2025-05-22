@@ -32,29 +32,27 @@ En utilisant la théorie de la percolation, la conductance totale G_{tot} d'un r
 
 <details>
 <summary>  Réalisation d'un shield PCB pour Arduino UNO  </summary>
-   Nous allons créer un shield PCB afin de relier à l'arduino UNO :<br/>  
+   Nous avons créer un shield PCB afin de relier à l'arduino UNO :<br/>  
         *  Un écran OLED  <br/>
         *  Un potentiomètre digital en SPI   <br/>
         *  Un amplificateur transimpédance, lui-même relié au capteur graphite décrit plus haut et au potentiomètre digital  <br/>
         *  Un module Bluetooth  <br/>
         *  Un flex sensor  <br/>
         *  Un encodeur rotatoir auquel on ajoute un déparasite (une capacité entre la clock et le ground)   <br/><br/>
-<img width="581" alt="Image" src="https://github.com/user-attachments/assets/28eecbd2-f71b-4ced-967f-bbeb16ab7868" /><br/>
-   Schematic de la PCB<br/>
-<img width="247" alt="Image" src="https://github.com/user-attachments/assets/da1daee6-8b76-422a-96bd-73fcd297bd3a" /><br/>
-   Rooting de la PCB<br/>
-<img width="385" alt="Image" src="https://github.com/user-attachments/assets/123b7bb1-8d2a-4d68-acf9-2b749840cc4e" /><br/>
-Modèle 3D<br/> 
+      
+
 </details>
 
 <details>
 <summary>  Création d'un code Arduino  </summary>
-  Dans l'onglet Code Arduino, on retrouve un fichier principal contenant le code qui permet de se déplacer dans un menu à l'aide de l'encodeur rotatoire et accéder à différentes fonctions telles que :<br/>
+Le code crée à l'occasion de ce projet permet de se déplacer dans un menu à l'aide de l'encodeur rotatoire et accéder à différentes fonctions telles que :<br/>
    -La fonction Capteur qui mesure la résistance du capteur graphite, l'affiche sur l'écran OLED et la transmet par bluetooth<br/>
    -La fonction Flex qui mesure la résistance du flex sensor et l'affiche sur l'écran OLED<br/>
-   -La fonction Mesure continue qui indique à l'utilisateur la marche à suivre pour réaliser une mesure en continue, que ce soit pour le flex sensor ou le capteur graphite<br/>
+   -La fonction Mesure continue qui indique à l'utilisateur la marche à suivre pour réaliser une mesure en continue, que ce soit pour le flex sensor ou le capteur graphite * <br/>
    -La fonction Informations qui renvoie l'utilisateur vers l'application pour Android pour obtenir plus d'informations, l'écran OLED étant très limité<br/>
    -La fonction Creatrices qui indique tout simplement par qui a été réalisé ce projet<br/>
+
+   *Un fil reliant la pin Switch de l'encodeur rotatoire avec le flex sensor a été ajouté. Le but principal est d'agir comme une résistance pull-up pour pouvoir utiliser le bouton switch plus simplement. Cependant, il permet également d'utiliser le flex sensor comme un bouton. En maintenant le flex sensor en compression, on obtient donc des mesures en continue.
    
 </details>
 
@@ -116,7 +114,7 @@ Des images du schematic, modèle 3D et PCB finale entre autres sont disponibles 
 
 ## Code Arduino
 
-[Code Arduino](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-MelissandE46-SofiaManzueta/tree/main/Code%20Arduino/Final_Code4.0)
+Le code se trouve ici avec une photo du menu déroulant : [Code Arduino](https://github.com/MOSH-Insa-Toulouse/2024-2025-4GP-MelissandE46-SofiaManzueta/tree/main/Code%20Arduino/Final_Code4.0)
 
 ## App Android
 
