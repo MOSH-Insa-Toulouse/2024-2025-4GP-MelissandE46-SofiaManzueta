@@ -3,13 +3,13 @@
 # Projet Capteur
 
 ## Sommaire 
-*  Objectifs de ce projet
-*  Diagramme du projet
-*  Simulation du capteur graphite sur LTSpice
-*  Shield PCB sur Kicad
-*  Code Arduino
-*  App Android
-*  La Datasheet
+*  [Objectifs de ce projet](#objectifs-de-ce-projet)
+*  [Diagramme du projet](#diagramme-du-projet)
+*  [Simulation du capteur graphite sur LTSpice](#simulation-du-capteur-graphite-sur-ltspice)
+*  [Shield PCB sur Kicad](#shield-pcb-sur-kicad)
+*  [Code Arduino](#code-arduino)
+*  [App Android](#app-android)
+*  [La Datasheet](#la-datasheet)
 
 ## Objectifs de ce projet
 
@@ -110,6 +110,13 @@ C1 et R2 sont un filtre pour le bruit en courant.<br/>
 R5 et C1 sont un filtre pour les bruits en tension.<br/>
 V3 et C5 simule du bruit.<br/>
 
+## Shield PCB sur Kicad
+<img width="581" alt="Image" src="https://github.com/user-attachments/assets/28eecbd2-f71b-4ced-967f-bbeb16ab7868" /><br/>
+   Schematic de la PCB<br/>
+<img width="247" alt="Image" src="https://github.com/user-attachments/assets/da1daee6-8b76-422a-96bd-73fcd297bd3a" /><br/>
+   Rooting de la PCB<br/>
+<img width="385" alt="Image" src="https://github.com/user-attachments/assets/123b7bb1-8d2a-4d68-acf9-2b749840cc4e" /><br/>
+Modèle 3D<br/>
 
 ## Code Arduino
 
