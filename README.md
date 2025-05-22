@@ -49,7 +49,13 @@ Modèle 3D<br/>
 
 <details>
 <summary>  Création d'un code Arduino  </summary>
-  Dans l'onglet Code Arduino, on retrouve un fichier principal contenant le code qui permet de  
+  Dans l'onglet Code Arduino, on retrouve un fichier principal contenant le code qui permet de se déplacer dans un menu à l'aide de l'encodeur rotatoire et accéder à différentes fonctions telles que :<br/>
+   -La fonction Capteur qui mesure la résistance du capteur graphite, l'affiche sur l'écran OLED et la transmet par bluetooth<br/>
+   -La fonction Flex qui mesure la résistance du flex sensor et l'affiche sur l'écran OLED<br/>
+   -La fonction Mesure continue qui indique à l'utilisateur la marche à suivre pour réaliser une mesure en continue, que ce soit pour le flex sensor ou le capteur graphite<br/>
+   -La fonction Informations qui renvoie l'utilisateur vers l'application pour Android pour obtenir plus d'informations, l'écran OLED étant très limité<br/>
+   -La fonction Creatrices qui indique tout simplement par qui a été réalisé ce projet<br/>
+   
 </details>
 
 <details>
@@ -75,7 +81,7 @@ Nous pouvons donc en conclure que le capteur présenté à l'avantage d'être si
 
 
 ## Diagramme du projet 
-Image
+
 <details>
 <summary>  Etapes du projet :  </summary>
   
@@ -85,7 +91,7 @@ Image
   - [x] Impression du circuit
   - [x] Percage
   - [x] Montage du circuit
-  - [] Code Arduino
+  - [x] Code Arduino
   - [x] App Android
   - [x] Création du banc de test
   - [x] Création de la datasheet
@@ -108,6 +114,21 @@ V3 et C5 simule du bruit.<br/>
 ## Code Arduino
 
 ## App Android
+
+![Image](https://github.com/user-attachments/assets/bafce6e1-93f9-4a59-aa2c-b92357f7b7d7)
+![Image](https://github.com/user-attachments/assets/9f8feeca-687b-4c62-8c0c-c11a3beac2c2)
+
+![Image](https://github.com/user-attachments/assets/b08738d4-4e00-4a9c-a05d-1d72a060a0d3)
+![Image](https://github.com/user-attachments/assets/94c89c7c-456e-44b9-ae3b-bf3c291a99e0)
+
+![Image](https://github.com/user-attachments/assets/036fec35-53f7-4990-88ee-b3cb6508290d)
+![Image](https://github.com/user-attachments/assets/92ee42b7-19af-437d-8264-14b139b4bc24)
+
+
+
+
+
+
 
 ## La Datasheet
 
