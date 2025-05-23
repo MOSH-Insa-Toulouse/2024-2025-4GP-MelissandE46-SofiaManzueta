@@ -105,7 +105,7 @@ C3 et R5 sont un filtre de sortie.<br/>
 C4 et R4 sont un filtre actif.<br/>
 R3 correspond au potentiomètre, il permettra donc un changement de calibre.<br/>
 C1 et R2 sont un filtre pour le bruit en courant.<br/>
-R5 et C1 sont un filtre pour les bruits en tension.<br/>
+R1 et C1 sont un filtre pour les bruits en tension.<br/>
 V3 et C5 simule du bruit.<br/>
 
 ## Shield PCB sur Kicad
